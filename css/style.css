@@ -104,6 +104,7 @@ a:hover {
 	max-width: 1800px;	/*サイトの最大幅。これ以上広がらない。*/
 	margin: 0 auto;
 	border-top: 5px solid var(--primary-color);	/*上の線の幅、線種、varは色のことで、ここではcss冒頭で指定しているテーマカラーを読み込みます。*/
+	padding: 0 10%; /* 左右の余白を10%に設定 */
 }
 
 
@@ -128,6 +129,10 @@ header {
 	width: 300px;	/*ロゴの幅*/
 }
 
+div > img[src="images/1.jpg"] {
+    display: block;
+    margin: 0 auto;
+}
 
 /*メニューブロック設定
 ---------------------------------------------------------------------------*/
@@ -370,6 +375,22 @@ footer .pr {display: block;}
 	border-radius: 50%;	/*円形にする*/
 }
 
+.container {
+	display: flex;
+	align-items: center;
+}
+.container img {
+	margin-right: 30px;
+}
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+	}
+	.container img {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+}
 
 /*その他
 ---------------------------------------------------------------------------*/
