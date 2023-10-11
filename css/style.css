@@ -380,7 +380,7 @@ footer .pr {display: block;}
 	align-items: center;
 }
 .container img {
-	margin-right: 30px;
+	margin-right: 120px;
 }
 @media (max-width: 768px) {
 	.container {
