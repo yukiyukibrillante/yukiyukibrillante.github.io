@@ -395,6 +395,31 @@ footer .pr {display: block;}
 	border-radius: 50%;	/*円形にする*/
 }
 
+.custom-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px; /* これはコンテナの最大幅を制限します。必要に応じて値を変更してください。 */
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+}
+.custom-container > div {
+    margin-right: 40px;
+}
+.custom-container > div:last-child {
+    margin-right: 0;
+}
+@media (max-width: 768px) {
+    .custom-container {
+        flex-direction: column;
+    }
+    .custom-container img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+
 .container {
 	display: flex;
 	align-items: center;
