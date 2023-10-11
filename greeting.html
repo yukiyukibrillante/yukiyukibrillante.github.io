@@ -4,16 +4,26 @@
 <meta charset="UTF-8">
 <title>ぶりらんてピアノ教室</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
+<meta name="description" content="ぶりらんてピアノ教室です。">
 <link rel="stylesheet" href="css/style.css">
 <style>
-    .container {
+     .container {
         display: flex;
         align-items: center;
     }
     .container img {
         margin-right: 30px;
     }
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+        .container img {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+}
 </style>
 </head>
 
