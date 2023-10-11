@@ -1,3 +1,3 @@
-# yukiyukibrillante.github.io
+# ぶりらんてピアノ教室公式サイト
 
-a
+## サイトの編集方法
