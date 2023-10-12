@@ -213,7 +213,7 @@ ul.slick-dots li {
 /*buttonタグ*/
 ul.slick-dots li button {
 	border: none;padding: 0;
-	display: block;
+	display: None;
 	text-indent: -9999px;	/*デフォルトで文字が出るので画面の外に追い出す指定*/
 	width: 12px;			/*ボタンの幅*/
 	height: 12px;			/*ボタンの高さ*/
