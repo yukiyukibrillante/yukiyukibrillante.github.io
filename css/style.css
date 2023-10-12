@@ -205,7 +205,7 @@ ul.slick-dots {
 
 /*丸いページナビボタン１個あたりの設定*/
 ul.slick-dots li {
-	display: inline-block;
+	display: None;
 	margin: 0 10px;
 	cursor: pointer;
 }
@@ -226,7 +226,6 @@ ul.slick-dots li button {
 ul.slick-dots li.slick-active button {
 	background: var(--primary-color);	/*色。css冒頭で指定しているテーマカラーを読み込みます*/
 }
-
 
 /*mainブロック設定
 ---------------------------------------------------------------------------*/
