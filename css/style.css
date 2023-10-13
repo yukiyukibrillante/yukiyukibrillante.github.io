@@ -438,6 +438,23 @@ footer .pr {display: block;}
 	}
 }
 
+.container_seito {
+	display: flex;
+	align-items: center;
+}
+.container_seito img {
+	margin-right: 120px;
+}
+@media (max-width: 1024px) {
+	.container_seito {
+		flex-direction: column;
+	}
+	.container_seito img {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+}
+
 /*その他
 ---------------------------------------------------------------------------*/
 .clearfix::after {content: "";display: block;clear: both;}
