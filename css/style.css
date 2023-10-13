@@ -444,6 +444,7 @@ footer .pr {display: block;}
 }
 .container_seito img {
 	margin-right: 120px;
+	max-width: 350px; /* これはコンテナの最大幅を制限します。必要に応じて値を変更してください。 */
 }
 @media (max-width: 1024px) {
 	.container_seito {
