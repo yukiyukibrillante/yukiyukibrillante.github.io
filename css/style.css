@@ -136,7 +136,7 @@ header {
 /* 画面幅が768px以下の場合の画像サイズ設定 */
 @media (max-width: 768px) {
     #logo img {
-        max-width: 350px; /* 画像の最大幅を300pxに制限 */
+        max-width: 400px; /* 画像の最大幅を300pxに制限 */
     }
 }
 
