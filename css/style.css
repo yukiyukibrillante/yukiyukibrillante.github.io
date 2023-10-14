@@ -105,7 +105,7 @@ a:hover {
 	max-width: 1800px;	/*サイトの最大幅。これ以上広がらない。*/
 	margin: 0 auto;
 	border-top: 5px solid var(--primary-color);	/*上の線の幅、線種、varは色のことで、ここではcss冒頭で指定しているテーマカラーを読み込みます。*/
-	padding: 0 10%; /* 左右の余白を10%に設定 */
+	padding: 0 5%; /* 左右の余白を10%に設定 */
 }
 
 
@@ -121,7 +121,7 @@ a:hover {
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
 header {
-	padding: 2rem 0;	/*上下、左右へのヘッダー内の余白。remというのは文字単位の事。3remは3文字分。*/
+	padding: 3rem 0;	/*上下、左右へのヘッダー内の余白。remというのは文字単位の事。3remは3文字分。*/
 	text-align: center;	/*内容をセンタリング*/
 }
 
@@ -147,7 +147,7 @@ div > img[src="images/1.jpg"] {
 div > img[src="images/otona_seito.jpg"] {
     width: 100%; /* 画像の最大幅を100%に設定 */
     height: auto; /* 高さは自動的に調整されます */
-    max-width: 500px; /* 画像の最大幅を500pxに制限 */
+    max-width: 550px; /* 画像の最大幅を500pxに制限 */
 	margin: 0 auto;
 	align-items: center;
 }
@@ -160,7 +160,7 @@ div > img[src="images/otona_seito.jpg"] {
 	margin-bottom: 3rem;			/*下に空けるスペース。３文字分。*/
 	display: flex;					/*flexボックスを使う指定*/
 	justify-content: space-around;	/*並びかたの種類の指定*/
-	border-top: 1px solid #ddd;		/*上の線の幅、線種、色*/
+	border-top: 1px solid #F5DEB3;		/*上の線の幅、線種、色*/
 	border-bottom: 1px solid #F5DEB3;	/*下の線の幅、線種、色*/
 	background: #FFF8DC;	/*背景色*/
 }
@@ -173,7 +173,7 @@ div > img[src="images/otona_seito.jpg"] {
 #menubar a {
 	text-decoration: none;display: block;
 	color: inherit;
-	padding: 0.7rem 0.5rem;		/*上下、左右へのメニュー内の余白*/
+	padding: 0.6rem 0.4rem;		/*上下、左右へのメニュー内の余白*/
 }
 
 /*マウスオン時*/
@@ -286,7 +286,7 @@ main p {
 ---------------------------------------------------------------------------*/
 footer small {font-size: 100%;}
 footer {
-	font-size: 0.7rem;		/*文字サイズ。bodyのfont-sizeの70%です。*/
+	font-size: 0.9rem;		/*文字サイズ。bodyのfont-sizeの70%です。*/
 	text-align: center;		/*内容をセンタリング*/
 	padding: 0px;			/*ボックス内の余白*/
 	color: #fff;			/*文字色*/
