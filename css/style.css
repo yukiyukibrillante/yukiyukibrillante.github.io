@@ -161,7 +161,7 @@ div > img[src="images/otona_seito.jpg"] {
 	display: flex;					/*flexボックスを使う指定*/
 	justify-content: space-around;	/*並びかたの種類の指定*/
 	border-top: 1px solid #ddd;		/*上の線の幅、線種、色*/
-	border-bottom: 1px solid #ddd;	/*下の線の幅、線種、色*/
+	border-bottom: 1px solid #F5DEB3;	/*下の線の幅、線種、色*/
 	background: #FFF8DC;	/*背景色*/
 }
 
