@@ -162,7 +162,7 @@ div > img[src="images/otona_seito.jpg"] {
 	justify-content: space-around;	/*並びかたの種類の指定*/
 	border-top: 1px solid #ddd;		/*上の線の幅、線種、色*/
 	border-bottom: 1px solid #ddd;	/*下の線の幅、線種、色*/
-	background: #F5DEB3;	/*背景色*/
+	background: #FFF8DC;	/*背景色*/
 }
 
 /*メニュー１個あたりの設定*/
@@ -374,7 +374,7 @@ footer .pr {display: block;}
 .ta1 th {
 	width: 28%;			/*幅*/
 	text-align: left;	/*左よせにする*/
-	background: #F5DEB3;	/*背景色*/
+	background: #FFF8DC;	/*背景色*/
 }
 
 
