@@ -306,7 +306,7 @@ footer .pr {display: block;}
 .list-simple {
 	text-align: center;	/*中身をセンタリング*/
 	width: 700px;		/*ボックスの幅*/
-	margin: 0 auto 4rem;	/*ボックスの外側にとるスペース。上、左右、下。*/
+	margin: 0 auto 2rem;	/*ボックスの外側にとるスペース。上、左右、下。*/
 }
 
 /*ボックス内のh3*/
