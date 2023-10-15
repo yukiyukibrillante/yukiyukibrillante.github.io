@@ -51,7 +51,9 @@ body {
 }
 
 /*リセット*/
-figure {margin: 0;}
+figure {margin: 0;
+	text-align: center;    /* キャプションを中央寄せにする */
+}
 dd {margin: 0;}
 nav {margin: 0;padding: 0;}
 
