@@ -136,7 +136,7 @@ header {
 /* 画面幅が768px以下の場合の画像サイズ設定 */
 @media (max-width: 768px) {
     #logo img {
-        max-width: 500px; /* 画像の最大幅を300pxに制限 */
+        max-width: 550px; /* 画像の最大幅を300pxに制限 */
     }
 }
 
@@ -157,7 +157,7 @@ div > img[src="images/otona_seito.jpg"] {
 /*メニューブロック*/
 #menubar ul {
 	margin: 0;padding: 0;
-	margin-bottom: 3rem;			/*下に空けるスペース。３文字分。*/
+	margin-bottom: 2rem;			/*下に空けるスペース。３文字分。*/
 	display: flex;					/*flexボックスを使う指定*/
 	justify-content: space-around;	/*並びかたの種類の指定*/
 	border-top: 1px solid #F5DEB3;		/*上の線の幅、線種、色*/
