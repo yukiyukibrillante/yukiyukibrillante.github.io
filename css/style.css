@@ -173,7 +173,7 @@ div > img[src="images/otona_seito.jpg"] {
 #menubar a {
 	text-decoration: none;display: block;
 	color: inherit;
-	padding: 0.6rem 0.4rem;		/*上下、左右へのメニュー内の余白*/
+	padding: 0.4rem 0.4rem;		/*上下、左右へのメニュー内の余白*/
 }
 
 /*マウスオン時*/
