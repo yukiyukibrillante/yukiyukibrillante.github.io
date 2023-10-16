@@ -536,13 +536,13 @@ footer .pr {display: block;}
 	}
 	/* YouTube */
 	.flowbtn12.fl_yu2{
-	border:solid 1px #FF0461;
-	color:#FF0461;
+	border:solid 1px #CC0000;
+	color:#CC0000;
 	}
 	/* YouTubeマウスホバー時 */
 	.flowbtn12.fl_yu2:hover{
-	border:solid 1px #FF0461;
-	background:#FF0461;
+	border:solid 1px #CC0000;
+	background:#CC0000;
 	}
 	/* LINE */
 	.flowbtn12.fl_li2{
