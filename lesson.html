@@ -11,6 +11,43 @@
 <link rel="icon" type="image/png" href="https://yukiyukibrillante.github.io/images/android-chrome-192x192.png" sizes="192x192">
 </head>
 
+<style>
+    figure {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        cursor: pointer;
+    }
+
+    figcaption {
+        text-align: center;
+        color: #220000;
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+
+    figure a::before {
+        content: '▶';  /* プレイアイコン */
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.8;
+    }
+
+    figure:hover img {
+        filter: brightness(80%);
+    }
+
+    figure img {
+        transition: all 0.3s;
+        width: 100%;
+        vertical-align: top;
+    }
+</style>
+
 <body>
 
 <div id="container">

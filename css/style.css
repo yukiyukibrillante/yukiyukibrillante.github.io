@@ -81,6 +81,7 @@ figcaption {
     text-align: left;  /* テキストを中央に配置 */
 	color: #220000;		/*文字色*/
 	font-size: 1.3rem;		/*文字サイズ*/
+	margin-top: 0; /* 上のマージンをなくします */
 }
 
 /*opa1のキーフレーム設定
@@ -604,6 +605,7 @@ footer .pr {display: block;}
 	list-style-type: none;
 	}
 
+	
 /*その他
 ---------------------------------------------------------------------------*/
 .clearfix::after {content: "";display: block;clear: both;}
