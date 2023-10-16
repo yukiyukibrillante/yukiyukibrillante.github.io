@@ -486,13 +486,13 @@ footer .pr {display: block;}
 	}
 	/* Instagram */
 	.flowbtn12.insta_btn2{
-	border:solid 1px #c6529a;
-	color:#c6529a;
+	border:solid 1px #4B0082;
+	color:#4B0082;
 	}
 	/* Instagramマウスホバー時 */
 	.flowbtn12.insta_btn2:hover{
-	border:solid 1px #c6529a;
-	background:#c6529a;
+	border:solid 1px #4B0082;
+	background:#4B0082;
 	}
 	/* Facebook */
 	.flowbtn12.fl_fb2{
@@ -536,13 +536,13 @@ footer .pr {display: block;}
 	}
 	/* YouTube */
 	.flowbtn12.fl_yu2{
-	border:solid 1px #fc0d1c;
-	color:#fc0d1c;
+	border:solid 1px #FF0000;
+	color:#FF0000;
 	}
 	/* YouTubeマウスホバー時 */
 	.flowbtn12.fl_yu2:hover{
-	border:solid 1px #fc0d1c;
-	background:#fc0d1c;
+	border:solid 1px #FF0000;
+	background:#FF0000;
 	}
 	/* LINE */
 	.flowbtn12.fl_li2{
