@@ -48,7 +48,8 @@ body {
 	color: #220000;		/*文字色*/
 	line-height: 2.5;		/*行間*/
 	background-image:url('./AdobeStock_471013681.webp');
-        background-size:cover;
+        background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*リセット*/
