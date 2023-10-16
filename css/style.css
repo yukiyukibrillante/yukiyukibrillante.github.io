@@ -79,7 +79,8 @@ section + section {
 
 figcaption {
     text-align: center;  /* テキストを中央に配置 */
-    padding: 10px 0;     /* 上下のパディングを追加して見栄えを良くする */
+	color: #220000;		/*文字色*/
+	font-size: 1.3rem;		/*文字サイズ*/
 }
 
 /*opa1のキーフレーム設定
