@@ -170,8 +170,8 @@ div > img[src="images/otona_seito.jpg"] {
 	margin-bottom: 2rem;			/*下に空けるスペース。３文字分。*/
 	display: flex;					/*flexボックスを使う指定*/
 	justify-content: space-around;	/*並びかたの種類の指定*/
-	border-top: 1px solid #F5DEB3;		/*上の線の幅、線種、色*/
-	border-bottom: 1px solid #F5DEB3;	/*下の線の幅、線種、色*/
+	border-top: 1px solid #8B4513;		/*上の線の幅、線種、色*/
+	border-bottom: 1px solid #8B4513;	/*下の線の幅、線種、色*/
 	background: #FFF8DC;	/*背景色*/
 }
 
@@ -364,14 +364,14 @@ footer .pr {display: block;}
 
 /*ta1テーブルブロック設定*/
 .ta1 {
-	border-top: 1px solid #666;	/*テーブルの一番上の線。幅、線種、色*/
+	border-top: 1px solid #220000;	/*テーブルの一番上の線。幅、線種、色*/
 	width: 100%;
 	margin: 0 auto 2em;		/*最後の「2em」がテーブルの下に空けるスペースです*/
 }
 
 /*tr（１行分）タグ設定*/
 .ta1 tr {
-	border-bottom: 1px solid #666;	/*テーブルの下線。幅、線種、色*/
+	border-bottom: 1px solid #220000;	/*テーブルの下線。幅、線種、色*/
 }
 
 /*th（左側）、td（右側）の共通設定*/
@@ -479,7 +479,7 @@ footer .pr {display: block;}
 	}
 	/* ボタン内テキストマウスホバー時 */
 	.flowbtn12:hover{
-	color:#fff!important;
+	color:#8B4513!important;
 	text-decoration:none;
 	}
 	/* Twitter */
