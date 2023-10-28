@@ -189,7 +189,7 @@ div > img[src="images/otona_seito.jpg"] {
 /*マウスオン時*/
 #menubar a:hover {
 	background: var(--primary-color);	/*背景色。css冒頭で指定しているテーマカラーを読み込みます*/
-	color: #ccc;						/*文字色*/
+	color: #220000;						/*文字色*/
 }
 
 
@@ -359,7 +359,7 @@ footer .pr {display: block;}
 	background: #555;		/*背景色*/
 	margin-bottom: 15px;	/*下に空けるスペース*/
 	border-radius: 5px;		/*角を丸くする指定*/
-	color: #fff;			/*文字色*/
+	color: #220000;			/*文字色*/
 }
 
 /*ta1テーブルブロック設定*/
