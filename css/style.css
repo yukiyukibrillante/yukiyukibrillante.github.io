@@ -78,7 +78,7 @@ section + section {
 }
 
 figcaption {
-    text-align: left;  /* テキストを中央に配置 */
+    text-align: center;  /* テキストを中央に配置 */
 	color: #220000;		/*文字色*/
 	font-size: 1.3rem;		/*文字サイズ*/
 	margin-top: 0; /* 上のマージンをなくします */
