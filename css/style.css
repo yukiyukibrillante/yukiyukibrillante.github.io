@@ -189,7 +189,7 @@ div > img[src="images/otona_seito.jpg"] {
 /*マウスオン時*/
 #menubar a:hover {
 	background: var(--primary-color);	/*背景色。css冒頭で指定しているテーマカラーを読み込みます*/
-	color: #220000;						/*文字色*/
+	color: #FFF;						/*文字色*/
 }
 
 
